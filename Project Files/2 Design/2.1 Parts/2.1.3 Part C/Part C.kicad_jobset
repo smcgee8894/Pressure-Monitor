@@ -1,0 +1,188 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "e4176b67-e53a-4d6a-b1b8-f440f2d00c50",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": false,
+        "export_silkscreen": false,
+        "export_soldermask": false,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "stl",
+        "fuse_shapes": false,
+        "include_dnp": false,
+        "include_unspecified": true,
+        "occt_format": 5,
+        "optimize_step": true,
+        "output_filename": "${PROJECTNAME}.stl",
+        "overwrite": true,
+        "subst_models": true,
+        "use_defined_origin": false,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "use_pcb_center_origin": true,
+        "user_origin.x": 0.0,
+        "user_origin.y": 0.0,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "",
+      "id": "7c3b7bdc-af98-4728-8a44-a5d5bb6fd0b3",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": false,
+        "export_silkscreen": true,
+        "export_soldermask": true,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "stl",
+        "fuse_shapes": false,
+        "include_dnp": false,
+        "include_unspecified": true,
+        "occt_format": 5,
+        "optimize_step": true,
+        "output_filename": "${PROJECTNAME}.stl",
+        "overwrite": true,
+        "subst_models": true,
+        "use_defined_origin": false,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "use_pcb_center_origin": true,
+        "user_origin.x": 150.0,
+        "user_origin.y": 100.0,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "",
+      "id": "714cc579-84ed-4f46-9b45-992c75a1886f",
+      "settings": {
+        "anti_alias": true,
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 720,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "${PROJECTNAME}.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "post_process": false,
+        "preset": "",
+        "procedural_textures": false,
+        "quality": "basic",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "top",
+        "use_board_stackup_colors": true,
+        "width": 1280,
+        "zoom": 1.0
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "bccd62a9-b74d-4c41-bfbc-8e6c84d6b433",
+      "settings": {
+        "bom_format_preset_name": "",
+        "bom_preset_name": "",
+        "description": "",
+        "exclude_dnp": false,
+        "field_delimiter": "",
+        "fields_group_by": [],
+        "fields_labels": [
+          "Reference",
+          "Value",
+          "Footprint",
+          "Datasheet",
+          "Qty",
+          "Description",
+          "#",
+          "JLCPCB P/N"
+        ],
+        "fields_ordered": [
+          "Reference",
+          "Value",
+          "__Footprint",
+          "__Datasheet",
+          "${QUANTITY}",
+          "Description",
+          "__${ITEM_NUMBER}",
+          "JLCPCB P/N"
+        ],
+        "filter_string": "",
+        "include_excluded_from_bom": false,
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "output_filename": "${PROJECTNAME} BOM.csv",
+        "ref_delimiter": "",
+        "ref_range_delimiter": "",
+        "sort_asc": true,
+        "sort_field": "Reference",
+        "string_delimiter": ""
+      },
+      "type": "sch_export_bom"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "Project Directory",
+      "id": "084c4f1a-c213-4f54-a2ab-7807a38b293f",
+      "only": [],
+      "settings": {
+        "output_path": "${KIPRJMOD}"
+      },
+      "type": "folder"
+    }
+  ]
+}
