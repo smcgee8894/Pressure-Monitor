@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cc2525cf-a1f0-40be-a5f7-eaa136b2dfa6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 112.268 62.865)
+		(size 45.593 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f63bcd9-a5bc-48ca-a1e5-556a2098850c")
+		(property "Sheetname" "Microcontroller"
+			(at 112.268 62.1534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "${PROJECTNAME} - Microcontroller.kicad_sch"
+			(at 112.268 97.7396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Probe Main Board"
+				(path "/cc2525cf-a1f0-40be-a5f7-eaa136b2dfa6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.419 63.119)
+		(size 38.735 35.687)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "774184b5-04b4-4c53-9c65-abb3222e656d")
+		(property "Sheetname" "Power"
+			(at 50.419 62.4074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "${PROJECTNAME} - Power.kicad_sch"
+			(at 50.419 99.3906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Probe Main Board"
+				(path "/cc2525cf-a1f0-40be-a5f7-eaa136b2dfa6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
